@@ -1,0 +1,118 @@
+body{
+    background-color: #ffe5b7;
+}
+
+.produtos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.sobre-nos{
+    background-color: #a2814a;
+    border-radius: 20px;
+    border: solid  2px  black;
+    margin-bottom: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-right: 20px;
+    margin-left: 20px;
+    color:white;
+    font-size: 30px;
+    padding: 50px;
+    display: flex;
+    align-items: flex-start;
+    flex: 1;
+}
+
+.sobre-nos img{
+    float: left;
+    max-width: 300px; /* define um tamanho fixo */
+    height: auto;
+    object-fit: contain;
+    rotate: -25deg;
+}
+
+.sobre-nos h1{
+    display: flex;
+    flex-direction: column;
+}
+
+.produtos div {
+    background-color: #a2814a;
+    text-align: center;
+    color: white;
+    border: solid 2px black;
+    padding: 30px;
+    border-radius: 20px;
+    width: 300px;
+    height: 470px;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.produtos-menu div{
+    background-color: #a2814a;
+    text-align: center;
+    color: white;
+    border: solid 2px black;
+    display: block;
+    padding: 30px;
+    border-radius: 20px;
+    width: 300px;
+    height: 370px;
+}
+
+.produtos-menu{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.produtos img{
+    background-color: #a2814a;
+    background-size: cover;
+    border-radius: 20px;
+    height: 200px;
+    width: auto;
+}
+
+.produtos div button{
+    background-color: #a2814a;
+    border: solid 1px black;
+}
+
+.produtos div button:hover{
+    background-color: #79653e;
+    border: solid 1px black;
+    transition: transform 0.2s;
+    transform: scale(1.02);
+}
+
+.produtos div{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.navbar-topo{
+    background-color: #a2814a;
+    margin-bottom: 30px;
+}
+
+a{
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#carouselExampleAutoplaying {
+    width: 800px;
+    height: 400px;
+    margin: auto; /* centraliza */
+    overflow: hidden;
+    border-right: solid 50% #a2814a;
+    margin-top: 30px;
+  }
+
+.container-carousel{
+    background-color: #68522c;
+}
