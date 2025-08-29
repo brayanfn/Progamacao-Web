@@ -99,6 +99,11 @@ body{
     margin-bottom: 30px;
 }
 
+.navbar-topo a {
+    font-size: 20px;
+    color: white !important;
+}
+
 a{
     text-decoration: none;
     font-family: 'Times New Roman', Times, serif;
@@ -115,4 +120,12 @@ a{
 
 .container-carousel{
     background-color: #68522c;
+}
+
+.dropdown-item:hover{
+    background-color: #68522c;
+}
+
+.dropdown-menu{
+    background-color: #a2814a;
 }
