@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
 </head>
 <body>
 
@@ -40,28 +40,28 @@
     </div>
   </nav>
     
-    <form action="pag_inicial_delizioso.html" method="get">
-        <div class="mb-3">
+    <form class="FormCadastro" action="pag_inicial_delizioso.html" method="get">
+        <div class="FormNome">
             <label for="Nome" class="form-label">Primeiro Nome</label>
             <input type="text" class="form-control" id="Nome">
           </div>
-          <div class="mb-3">
+          <div class="FormCPF">
             <label for="CPF" class="form-label">CPF</label>
             <input type="text" class="form-control" id="CPF" name="CPF" maxlength="14" pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" placeholder="000.000.000-00"required>
             <div class="form-text">Formato: 000.000.000-00</div>
           </div>
-        <div class="mb-3">
-          <label for="exampleInputEmail1" class="form-label">Email</label>
+        <div class="FormEmail">
+          <label for="email" class="form-label">Email</label>
           <input type="email" class="form-control" id="Email" aria-describedby="emailHelp">
           <div id="emailHelp" class="form-text">Não iremos compartilhar seu e-mail com mais ninguém.</div>
         </div>
-        <div class="mb-3">
-          <label for="exampleInputPassword1" class="form-label">Senha</label>
+        <div class="FormSenha">
+          <label for="senha" class="form-label">Senha</label>
           <input type="password" class="form-control" id="Senha">
         </div>
-        <div class="mb-3 form-check">
+        <div class="FormTermos">
           <input type="checkbox" class="form-check-input" id="ConcordarTermos">
-          <label class="form-check-label" for="exampleCheck1">Concordo com os termos.</label>
+          <label class="form-check-label" for="ConcordarTermos">Concordo com os termos.</label>
         </div>
         <a href="Login_Delizioso.html">Já tenho uma conta.</a><br>
         <button type="submit" class="btn btn-primary">Cadastrar-se</button>
